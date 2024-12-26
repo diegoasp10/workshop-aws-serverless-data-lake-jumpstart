@@ -8,10 +8,10 @@ import { AwsServerlessDataLakeJumpstartPart2 } from '../lib/stacks/aws-serverles
 
 const app = new cdk.App();
 
-const config = JSON.parse(readFileSync(join(__dirname, '..', 'config', 'config.json'), 'utf8'));
+const config = JSON.parse(readFileSync(join(__dirname, '..', '..', 'config', 'config.json'), 'utf8'));
 const prefix = config.prefix;
 
-const tags = JSON.parse(readFileSync(join(__dirname, '..', 'config', 'tags.json'), 'utf8'));
+const tags = JSON.parse(readFileSync(join(__dirname, '..', '..', 'config', 'tags.json'), 'utf8'));
 const tagMap = tags.tags;
 
 const awsAccount = process.env.CDK_DEFAULT_ACCOUNT;

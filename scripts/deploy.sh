@@ -17,6 +17,8 @@ STACK_NAME_PART_2="AwsServerlessDataLakeJumpstartPart2"
 echo "Login session sso using profile: $AWS_PROFILE"
 aws sso login --profile $AWS_PROFILE
 
+cd cdk
+
 echo "Deploying $STACK_NAME_PART_1 stack using profile: $AWS_PROFILE"
 cdk deploy "$STACK_NAME_PART_1" --profile $AWS_PROFILE
 
