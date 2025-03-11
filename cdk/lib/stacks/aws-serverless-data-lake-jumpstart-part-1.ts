@@ -73,7 +73,7 @@ export class AwsServerlessDataLakeJumpstartPart1 extends cdk.Stack {
             },
             maxCapacity: 10,
             timeout: 60,
-            glueVersion: "4.0",
+            glueVersion: "5.0",
         });
 
         this.serverlessAnalyticsCatalog = new CfnDatabase(this, 'ServerlessAnalyticsCatalog', {

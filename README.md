@@ -90,6 +90,10 @@ cdk destroy --profile <tu-perfil-sso>
 - Amazon Athena
 - AWS Glue DataBrew
 
+## Arquitectura
+
+![Arquitectura Inicio rápido de Data Lake sin servidor en AWS](assets/Arq.%20AWS%20Serverless%20Data%20Lake%20Jumpstart.png)
+
 ## Documentación Adicional
 
 En la carpeta `cdk/README.md` encontrarás:

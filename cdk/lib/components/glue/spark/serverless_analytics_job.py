@@ -11,8 +11,7 @@ from awsglue.job import Job # type: ignore
 args = getResolvedOptions(sys.argv, [
     'JOB_NAME',
     's3_input_uri',
-    's3_output_uri',
-    'crawler_name'
+    's3_output_uri'
 ])
 sc = SparkContext()
 glueContext = GlueContext(sc)
