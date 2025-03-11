@@ -1,6 +1,6 @@
 import * as cdk from 'aws-cdk-lib';
 import { CfnDataset, CfnProject, CfnRecipe } from 'aws-cdk-lib/aws-databrew';
-import { Role, ServicePrincipal, ManagedPolicy, PolicyStatement } from 'aws-cdk-lib/aws-iam';
+import { Role, ServicePrincipal, ManagedPolicy } from 'aws-cdk-lib/aws-iam';
 import { Bucket } from 'aws-cdk-lib/aws-s3';
 import { Construct } from 'constructs';
 

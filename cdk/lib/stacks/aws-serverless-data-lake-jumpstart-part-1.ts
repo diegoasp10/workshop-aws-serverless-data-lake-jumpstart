@@ -2,7 +2,7 @@ import * as cdk from 'aws-cdk-lib';
 import { Bucket } from 'aws-cdk-lib/aws-s3';
 import { BucketDeployment, Source } from 'aws-cdk-lib/aws-s3-deployment';
 import { join } from "path";
-import { Role, ServicePrincipal, PolicyStatement, ManagedPolicy } from 'aws-cdk-lib/aws-iam';
+import { Role, ServicePrincipal, ManagedPolicy } from 'aws-cdk-lib/aws-iam';
 import { CfnJob, CfnDatabase, CfnCrawler } from 'aws-cdk-lib/aws-glue';
 import { Construct } from 'constructs';
 
