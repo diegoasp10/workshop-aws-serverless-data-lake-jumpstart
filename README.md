@@ -80,7 +80,7 @@ Eliminar todos los recursos:
 
 ```bash
 cd cdk
-cdk destroy --profile <tu-perfil-sso>
+cdk destroy --profile <tu-perfil-sso> --all
 ```
 
 ## Servicios Desplegados
