@@ -53,7 +53,7 @@ export class AwsServerlessDataLakeJumpstartPart1 extends cdk.Stack {
             role: serverlessAnalyticsJobRole.roleArn,
             command: {
                 name: 'glueetl',
-                scriptLocation: `s3://${this.serverlessAnalyticsBucket.bucketName}/spark/serverless_analytics_job.py`,
+                scriptLocation: `s3://${this.serverlessAnalyticsGlueBucket.bucketName}/spark/serverless_analytics_job.py`,
             },
             defaultArguments: {
                 "--s3_input_uri": `s3a://${this.serverlessAnalyticsBucket.bucketName}/RAW_DATA/TAXI_ZONE_LOOKUP/taxi_zone_lookup.csv`,

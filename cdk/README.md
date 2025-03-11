@@ -64,7 +64,7 @@ Los datos ya están almacenados en el bucket de Amazon S3. El objetivo es verifi
 
 El paso de transformación convierte los datos crudos a formato Parquet utilizando un trabajo ETL de AWS Glue, lo que optimiza el almacenamiento y mejora el rendimiento de las consultas.
 
-1. ccede a la consola de AWS Glue.
+1. Accede a la consola de AWS Glue.
 2. En el panel de navegación, selecciona Jobs.
 3. Ubica el trabajo de transformación.
 4. Ejecuta el trabajo, que transformará los datos en la carpeta RAW_DATA/ a formato Parquet y almacenará los archivos transformados en la carpeta PARQUET_DATA/ en S3.
